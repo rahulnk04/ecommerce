@@ -1,35 +1,35 @@
-import "./App.css";
+import "./categories.styles.scss";
 
 const App = () => {
   const categories = [
     {
       id: 1,
-      title: 'Hats',
+      title: "Hats",
     },
     {
       id: 2,
-      title: 'Jackets',
+      title: "Jackets",
     },
     {
       id: 3,
-      title: 'Sneakers',
+      title: "Sneakers",
     },
     {
       id: 4,
-      title: 'Womens',
+      title: "Womens",
     },
     {
       id: 5,
-      title: 'Mens',
+      title: "Mens",
     },
   ];
 
   return (
-    <div className='categories-container'>
-      {categories.map(({ title }) => (
-        <div className='category-container'>
-          <div className='background-image' />
-          <div className='category-body-container'>
+    <div className="categories-container">
+      {categories.map(({ title, id }) => (
+        <div key={id} className="category-container">
+          <div className="background-image" />
+          <div className="category-body-container">
             <h2>{title}</h2>
             <p>Shop Now</p>
           </div>
@@ -37,6 +37,7 @@ const App = () => {
       ))}
     </div>
   );
+  
 };
 
 export default App;
