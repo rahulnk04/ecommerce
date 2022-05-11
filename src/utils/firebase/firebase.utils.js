@@ -8,7 +8,7 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 // const firebaseConfig = {
-//   apiKey: "AIzaSyBRkAa5W5FGoVMSdwpZ9hNAfxz6wRa7cFQ",
+//   apiKey: "AIzaSyBRkAa5W5FadaeqwferredacaguliGoVMSdwadasdasdasdpZ9hNAfxz6wRa7cFQ",
 //   authDomain: "ecommerce-db-ce2d1.firebaseapp.com",
 //   projectId: "ecommerce-db-ce2d1",
 //   storageBucket: "ecommerce-db-ce2d1.appspot.com",
